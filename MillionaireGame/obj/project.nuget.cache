@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "W15OiwhMybAMDl5EAIx5KaOLnuNZP6fzu74QxVbguIWNtO7OzAaeuhqNt/PAvk6hUCSA956MgZC2BEdzlAbPhw==",
+  "dgSpecHash": "+pIfc+gFqJhPhSM3vwC5F8h8oS1Ip8m4oe1V6oROQ6j3Okg4ucr38Yp7Tn+Vs8R1rLiZMWmEoyALDPXcL75ujw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hazem\\RiderProjects\\MillionaireGame\\MillionaireGame\\MillionaireGame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Program Files\\Java\\jdk-19\\MillionaireGame\\MillionaireGame\\MillionaireGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hazem\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\hazem\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

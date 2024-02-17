@@ -1,0 +1,26 @@
+﻿kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: build
+    image: mcr.microsoft.com/dotnet/sdk:latest
+    commands:
+      - dotnet restore
+      - dotnet build
+
+  - name: test
+    image: mcr.microsoft.com/dotnet/sdk:latest
+    commands:
+      - dotnet test --logger "trx;LogFileName=test_results.xml" /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+
+  - name: sonarqube
+    image: sonarsource/sonar-scanner-cli:latest
+    settings:
+      sonar.host.url: http://sonarqube.example.com
+    commands:
+      - sonar-scanner
+
+services:
+  - name: sonarqube
+    image: sonarqube:latest
