@@ -85,7 +85,7 @@ namespace MillionaireGame
             Console.WriteLine($"Earned Balance: {earnedBalance}");
         }
 
-        private Question GetNextQuestion()
+        public Question GetNextQuestion()
         {
             if (currentQuestionIndex < questions.Count)
             {
