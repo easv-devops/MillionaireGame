@@ -11,15 +11,4 @@ steps:
   - name: test
     image: mcr.microsoft.com/dotnet/sdk
     commands:
-      - dotnet test 
-
-  - name: sonarqube
-    image: sonarsource/sonar-scanner-cli:latest
-    settings:
-      sonar.host.url: http://sonarqube.example.com
-    commands:
-      - sonar-scanner
-
-services:
-  - name: sonarqube
-    image: sonarqube:latest
+      - dotnet test
