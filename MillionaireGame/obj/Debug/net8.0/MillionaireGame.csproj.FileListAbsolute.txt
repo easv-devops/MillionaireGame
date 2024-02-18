@@ -52,3 +52,7 @@ C:\Program Files\Java\jdk-19\MillionaireGame\MillionaireGame\obj\Debug\net8.0\re
 C:\Program Files\Java\jdk-19\MillionaireGame\MillionaireGame\obj\Debug\net8.0\MillionaireGame.pdb
 C:\Program Files\Java\jdk-19\MillionaireGame\MillionaireGame\obj\Debug\net8.0\MillionaireGame.genruntimeconfig.cache
 C:\Program Files\Java\jdk-19\MillionaireGame\MillionaireGame\obj\Debug\net8.0\ref\MillionaireGame.dll
+C:\Program Files\Java\jdk-19\MillionaireGame\MillionaireGame\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Program Files\Java\jdk-19\MillionaireGame\MillionaireGame\bin\Debug\net8.0\xunit.assert.dll
+C:\Program Files\Java\jdk-19\MillionaireGame\MillionaireGame\bin\Debug\net8.0\xunit.core.dll
+C:\Program Files\Java\jdk-19\MillionaireGame\MillionaireGame\bin\Debug\net8.0\xunit.execution.dotnet.dll
